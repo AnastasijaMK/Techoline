@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа</title>
+
+    <link rel="stylesheet" href="css/styles-lib.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script-lib.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="header__top">
+            <div class="container no-md">
+                <ul class="header__top--menu">
+                    <li><a href="about.html" class="selected"><span>О группе</span></a></li>
+                    <li><a href="delivery.html"><span>Доставка и оплата</span></a></li>
+                    <li><a href="articles_list.html"><span>Новости и статьи</span></a></li>
+                    <li><a href="video.html"><span>Видео</span></a></li>
+                    <li><a href="cooperation.html"><span>Сотрудничество</span></a></li>
+                    <li><a href="manufacturers.html"><span>Производители</span></a></li>
+                    <li><a href="complex_solutions.html"><span>Комплексные решения</span></a></li>
+                    <li><a href="contacts.html"><span>Контакты</span></a></li>
+                </ul>
+                <button class="j-request-a-call">Заказать обратный звонок</button>
+            </div>
+        </div>
+        <div class="header__main">
+            <div class="container">
+                <div class="header__main--left">
+                    <div class="header__main--burger md">
+                        <img src="img/burger.svg" alt="Открыть меню">
+                        <img src="img/burger_close.svg" alt="Закрыть меню">
+                    </div>
+                    <div class="header__main--logo">
+                        <a href="main_page.html">
+                            <picture>
+                                <source srcset="img/header_logo_mob.png" media="(max-width: 767px)">
+                                <source srcset="img/header_logo_tablet.png" media="(max-width: 1199px)">
+                                <source srcset="img/header_logo.png" media="(min-width: 1199px)">
+                                <img src="img/header_logo.png" alt="Technoline Group">
+                            </picture>
+                        </a>
+                    </div>
+                    <div class="header__main--menu no-md">
+                        <div class="menu__block inner--list">
+                            <span class="menu__block--name"><span>Каталог</span></span>
+                            <div class="menu__list" data-list="catalog">
+                                <div class="container">
+                                    <div class="menu__list--block">
+                                        <div class="menu__list--column" data-type="water">
+                                            <a href="catalog_items.html" class="menu__list--title">
+                                                <span>Водоподготовка и водоочистка</span>
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Флокулянты</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Бактерии</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Коагулянты</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Фиксирующие агенты для краски</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Разделяющие агенты</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Пеногаситель</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Обесцвечивающие агенты</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu__list--column" data-type="metal">
+                                            <a href="catalog_items_metal.html" class="menu__list--title">
+                                                <span>Подготовка и обработка металла</span>
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Фосфатирование</span></a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="catalog_items_in_section.html"><span>Общее</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="catalog_items_in_section.html"><span>Phostri TTS4</span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="catalog_items_in_section.html"><span>Phosclean TTS3</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Обезжиривание</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Удаление краски</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_in_section.html"><span>Плафоризация</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu__list--block">
+                                        <div class="menu__list--column" data-type="equipment">
+                                            <a href="catalog_sections.html" class="menu__list--title">
+                                                <span>Оборудование</span>
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Фильтр-прессы</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Барабанные фильтры</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Диффузоры</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Грохоты</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Компактная система очистки</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Конвейеры</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Генератор пузырьков</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Система дозирования</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_items_equipment.html"><span>Напорный флотатор</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="catalog_detail_camera.html"><span>Камера подготовки перед покраской</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu__list--block">
+                                        <a href="podbor_reagenta_dlya_metala.html" data-type="metal">
+                                            <img src="img/icon_menu_metal.svg" alt="Подбор реагента для подготовки металла">
+                                            <span class="block__info">
+                                                        <span class="block__title">Подбор реагента для подготовки металла</span>
+                                                        <span class="block__subtitle">Опросный лист для подбора</span>
+                                                    </span>
+                                        </a>
+                                        <a href="podbor_reagenta_dlya_vodi.html" data-type="water">
+                                            <img src="img/icon_menu_water.svg" alt="Подбор реагента для сточных вод или водоподготовки">
+                                            <span class="block__info">
+                                                        <span class="block__title">Подбор реагента для сточных вод или водоподготовки</span>
+                                                        <span class="block__subtitle">Опросный лист для подбора</span>
+                                                    </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__block inner--list">
+                            <a href="complex_solutions.html" class="menu__block--name"><span>Комплексные решения</span></a>
+                            <div class="menu__list" data-list="solutions">
+                                <div class="container">
+                                    <ul>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">МЕТАЛЛУРГИЯ</span>
+                                                <span class="menu__point--info">Автомобильная промышленность, судостроение и др.</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">НЕФТЕПЕРЕРАБАТЫВАЮЩАЯ ПРОМЫШЛЕННОСТЬ</span>
+                                                <span class="menu__point--info">Удаление нефтяных и бензиновых загрязнений</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ФИКСАЦИЯ ЦВЕТА</span>
+                                                <span class="menu__point--info">Улучшение устойчивости красителя</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ГАЛЬВАНИЧЕСКИЕ СТОКИ</span>
+                                                <span class="menu__point--info">Небольшие стоки гальванических и окрасочных камер</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ПЕРЕРАБОТКА ОТХОДОВ</span>
+                                                <span class="menu__point--info">Очищение оборотной воды</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">МОКРАЯ ГАЗООЧИСТКА</span>
+                                                <span class="menu__point--info">Очищение жидкости после мокрой газоочистки</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ГОРНОДОБЫВАЮЩАЯ ОТРАСЛЬ</span>
+                                                <span class="menu__point--info">Удаление растворенных минералов из стоков</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ПИЩЕВЫЕ СТОКИ</span>
+                                                <span class="menu__point--info">Очищение масло-жировых, мясных, молочных и других стоков</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ОБЕЗВОЖИВАНИЕ ОСАДКА</span>
+                                                <span class="menu__point--info">Низкая влажность осадка</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ГОРОДСКИЕ СТОКИ</span>
+                                                <span class="menu__point--info">Химическая очистка сточных вод</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ТЕКСТИЛЬНЫЕ СТОКИ</span>
+                                                <span class="menu__point--info">Очищение стоков от остатков волокон, клея, ПАВ</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ОБЕСЦВЕЧИВАНИЕ ВОДЫ</span>
+                                                <span class="menu__point--info">Для трудно поддающихся осветлению стоков</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">КОЖЕВЕННЫЕ СТОКИ</span>
+                                                <span class="menu__point--info">Удаление хрома и обесцвечивание</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ХИМИЧЕСКОЕ ПРОИЗВОДСТВО</span>
+                                                <span class="menu__point--info">Стоки после производства пластика, резины, краски и др.</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">КИСЛОТНЫЕ И ЩЕЛОЧНЫЕ СТОКИ</span>
+                                                <span class="menu__point--info">Нейтрализация сточных вод</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">КОСМЕТИКА И ФАРМА</span>
+                                                <span class="menu__point--info">Разделение эмульсий и удаление орагники</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ЦЕЛЛЮЛОЗНО-БУМАЖНАЯ ОТРАСЛЬ</span>
+                                                <span class="menu__point--info">Очищение с экономией воды</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">СНИЖЕНИЕ ХПК И ПБК</span>
+                                                <span class="menu__point--info">Понижение показателей на разных этапах</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">КРАСИЛЬНАЯ ПРОМЫШЛЕННОСТЬ</span>
+                                                <span class="menu__point--info">Удаление примесей органическими коагулянтами</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ДЕЭМУЛЬГИРОВАНИЕ</span>
+                                                <span class="menu__point--info">Разделение эмульсий в сточных водах</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="complex_solutions_detail.html">
+                                                <span class="menu__point--title">ТЯЖЕЛЫЕ МЕТАЛЛЫ И ПРИМЕСИ</span>
+                                                <span class="menu__point--info">Осаждение и удаление осадка</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu__block">
+                            <a href="examples.html" class="menu__block--name"><span>Реализованные примеры</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__main--right">
+                    <div class="header__main--phone no-xs">
+                        <a href="tel:+78005505211">+7 800 550 52 11</a>
+                        <p>Звонок по России бесплатный</p>
+                        <p>Режим работы: 08:30 – 17:30, Пн.-Пт.</p>
+                    </div>
+                    <div class="header__main--search no-xs">
+                        <div class="icon__search">
+                                    <span class="icon__wrap">
+                                        <img src="img/search.svg" alt="Поиск">
+                                        <img src="img/search-close.svg" alt="Поиск">
+                                    </span>
+                            <span class="icon--text">Поиск</span>
+                        </div>
+                        <div class="icon__field">
+                            <form action="" method="POST">
+                                <label>
+                                    <input type="text" placeholder="Что вы хотите найти..." name="q" autocomplete="off" value="">
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header__main--cart">
+                        <a href="basket.html">
+                                    <span class="icon__wrap">
+                                        <img src="img/cart.svg" alt="Корзина">
+                                        <span class="icon__count">3</span>
+                                    </span>
+                            <span class="icon--text no-xs">Корзина</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="nav__back xs">
+            <a href="basket.html">
+                <span>Корзина</span>
+            </a>
+        </div>
+        <div class="container">
+            <div class="basket__wrap order__wrap">
+                <div class="breadcrumb no-xs" itemprop="http://schema.org/breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                            <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                            <a itemprop="name" title="Главная" id="bx_breadcrumb_0" href="main_page.html">Главная</a>
+                            </span>
+                    <meta itemprop="position" content="1">
+                    <div class="separate">/</div>
+                    <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                        <a itemprop="name" title="Корзина" id="bx_breadcrumb_1" href="basket.html">Корзина</a>
+                    </span>
+                    <meta itemprop="position" content="2">
+                    <div class="separate">/</div>
+                    <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                        <a itemprop="name" title="Оформление заказа" id="bx_breadcrumb_1" href="javascript:void(0);">Оформление заказа</a>
+                    </span>
+                    <meta itemprop="position" content="3">
+                </div>
+                <div class="basket__heading">
+                    <h1>Оформление заказа</h1>
+                    <span>( добавлено )</span>
+                </div>
+                <div class="basket__inner">
+                    <div class="basket__left">
+                        <div class="basket__block" data-block="payment">
+                            <span class="basket__block--title">Оплата</span>
+                            <div class="basket__payment--list">
+                                <div class="basket__payment--block">
+                                    <label>
+                                        <input type="checkbox" checked="" disabled>
+                                        <div class="basket__payment--text">
+                                            <span class="basket__payment--title">Счет на оплату</span>
+                                            <p class="basket__payment--info">(будет сформирован после подтвержения заказа менеджером)</p>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="basket__block" data-block="customer">
+                            <span class="basket__block--title">Покупатель</span>
+                            <div class="basket__customer--form">
+                                <div class="form__row">
+                                    <label data-label="name">
+                                        <input type="text" placeholder="Введите ФИО..." name="NAME" required="">
+                                        <span class="input--error">Обязательное поле</span>
+                                    </label>
+                                    <label data-label="phone">
+                                        <input type="tel" placeholder="+7 (999) 999 99 99" name="PHONE" required="">
+                                        <span class="input--error">Обязательное поле</span>
+                                    </label>
+                                    <label data-label="email">
+                                        <input type="email" placeholder="info@info.ru" name="EMAIL" required="">
+                                        <span class="input--error">Обязательное поле</span>
+                                    </label>
+                                </div>
+                                <textarea placeholder="Комментарий к заказу..."></textarea>
+                            </div>
+                        </div>
+                        <div class="basket__block" data-block="items">
+                            <span class="basket__block--title">Товары в заказе</span>
+                            <div class="basket__list">
+                                <div class="basket__row">
+                                    <div class="basket__row--img">
+                                        <a href="catalog_detail.html">
+                                            <img src="img/cart1.jpg" alt="Одностадийный готовый продукт TORAN 3">
+                                        </a>
+                                    </div>
+                                    <div class="basket__row--info">
+                                        <div class="basket__row--text">
+                                            <p><a href="catalog_detail.html">Одностадийный готовый продукт TORAN 3</a></p>
+                                            <div class="basket__row--options">
+                                                <p class="basket__row--option">
+                                                    <span class="title">Вес:</span>
+                                                    <span class="value">25 л</span>
+                                                </p>
+                                                <p class="basket__row--option">
+                                                    <span class="title">Высота разгрузки, мм:</span>
+                                                    <span class="value">350</span>
+                                                </p>
+                                                <p class="basket__row--option">
+                                                    <span class="title">Длина, мм:</span>
+                                                    <span class="value">1 900</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="basket__row--param">
+                                            <div class="basket__row--quantity">
+                                                <span>1 шт</span>
+                                            </div>
+                                            <div class="basket__row--price">
+                                                <p class="price--actual"><span>15 300</span> <span class="price--currency">₽</span>/шт</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="basket__row">
+                                    <div class="basket__row--img">
+                                        <a href="catalog_detail_metal.html">
+                                            <img src="img/cart2.jpg" alt="Средство для удаления краски APS-A21">
+                                        </a>
+                                    </div>
+                                    <div class="basket__row--info">
+                                        <div class="basket__row--text">
+                                            <p><a href="catalog_detail_metal.html">Средство для удаления краски APS-A21</a></p>
+                                            <div class="basket__row--options">
+                                                <p class="basket__row--option">
+                                                    <span class="title">Вес:</span>
+                                                    <span class="value">25 л</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="basket__row--param">
+                                            <div class="basket__row--quantity">
+                                                <span>15 шт</span>
+                                            </div>
+                                            <div class="basket__row--price">
+                                                <p class="price--actual"><span>7 270</span> <span class="price--currency">₽</span>/шт</p>
+                                                <p class="price--old"><span>7 890</span> <span class="price--currency">₽</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="basket__row">
+                                    <div class="basket__row--img">
+                                        <a href="catalog_detail_metal.html">
+                                            <img src="img/cart2.jpg" alt="Средство для удаления краски APS-A21">
+                                        </a>
+                                    </div>
+                                    <div class="basket__row--info">
+                                        <div class="basket__row--text">
+                                            <p><a href="catalog_detail_metal.html">Средство для удаления краски APS-A21</a></p>
+                                            <div class="basket__row--options">
+                                                <p class="basket__row--option">
+                                                    <span class="title">Вес:</span>
+                                                    <span class="value">25 л</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="basket__row--param">
+                                            <div class="basket__row--quantity">
+                                                <span>1 шт</span>
+                                            </div>
+                                            <div class="basket__row--price">
+                                                <p class="price--actual"><span>7 270</span> <span class="price--currency">₽</span>/шт</p>
+                                                <p class="price--old"><span>7 890</span> <span class="price--currency">₽</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="j-to-order no-md">Оформить заказ</button>
+                        <div class="policy__wrap no-md">
+                            <label>
+                                <input type="checkbox" checked="true" name="POLICY" required>
+                                <p>Нажимая кнопку «Оформить заказ», я даю свое согласие на обработку персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Соглашении на обработку персональных данных.</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="basket__right">
+                        <div class="basket__total">
+                            <div class="basket__total--header">
+                                <span>Ваш заказ</span>
+                            </div>
+                            <div class="basket__total--list">
+                                <div class="basket__total--row" data-row="quantity">
+                                    <span class="title">Количество товаров:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="basket__total--row" data-row="summ">
+                                    <span class="title">Сумма товаров:</span>
+                                    <span class="value"><span></span> <span class="price--currency">₽</span></span>
+                                </div>
+                                <div class="basket__total--row" data-row="sale">
+                                    <span class="title">Сумма скидки:</span>
+                                    <span class="value">- <span></span> <span class="price--currency">₽</span></span>
+                                </div>
+                                <div class="basket__total--row" data-row="total">
+                                    <span class="title">Итого:</span>
+                                    <span class="value"><span></span> <span class="price--currency">₽</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="j-to-order md">Оформить заказ</button>
+                        <div class="policy__wrap md">
+                            <label>
+                                <input type="checkbox" checked="true" name="POLICY" required>
+                                <p>Нажимая кнопку «Оформить заказ», я даю свое согласие на обработку персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Соглашении на обработку персональных данных.</p>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="wrapper__shadow"></div>
+
+        <div class="popup__menu">
+            <div class="popup__menu--search">
+                <div class="container">
+                    <form action="" method="POST">
+                        <label>
+                            <input type="text" placeholder="Что вы хотите найти..." name="q" autocomplete="off" value="">
+                        </label>
+                    </form>
+                </div>
+            </div>
+            <div class="popup__menu--back">
+                <div class="container">
+                    <span>Назад к главному меню</span>
+                    <span>Назад</span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="popup__menu--group">
+                    <span class="popup__menu--title">Каталог</span>
+                    <ul>
+                        <li data-section="water">
+                            <span><b>Водоподготовка и водоочистка</b></span>
+                            <ul>
+                                <li>
+                                    <a href="catalog_items.html"><span class="show--all">Смотреть все</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Флокулянты</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Бактерии</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Коагулянты</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Фиксирующие агенты</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Разделяющие агенты</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Пеногаситель</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Обесцвечивающие агенты</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-section="metal">
+                            <span><b>Подготовка и обработка металла</b></span>
+                            <ul>
+                                <li>
+                                    <a href="catalog_items_metal.html"><span class="show--all">Смотреть все</span></a>
+                                </li>
+                                <li>
+                                    <span>Фосфатирование</span>
+                                    <ul>
+                                        <li>
+                                            <a href="catalog_items_in_section.html"><span class="show--all">Смотреть все</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog_items_in_section.html"><span>Общее</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog_items_in_section.html"><span>Phostri TTS4</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="catalog_items_in_section.html"><span>Phosclean TTS3</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Обезжиривание</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Удаление краски</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Плафоризация</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span><b>Оборудование</b></span>
+                            <ul>
+                                <li>
+                                    <a href="catalog_items.html"><span class="show--all">Смотреть все</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Фильтр-прессы</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Барабанные фильтры</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Диффузоры</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Грохоты</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Компактная система очистки</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Конвейеры</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Генератор пузырьков</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Система дозирования</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_equipment.html"><span>Напорный флотатор</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_detail_camera.html"><span>Камера подготовки перед покраской</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Комплексные решения</span>
+                            <ul>
+                                <li>
+                                    <a href="complex_solutions.html"><span class="show--all">Смотреть все</span></a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Металлургия</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Нефтеперерабатывающая промышленность</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Фиксация цвета</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Гальванические стоки</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Переработка отходов</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Мокрая газоочистка</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Горнодобывающая отрасль</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Пищевые стоки</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Обезвоживание осадка</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Городские стоки</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Текстильные стоки</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Обесцвечивание воды</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Кожевенные стоки</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Химическое производство</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Кислотные и щелочные стоки</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Косметика и фарма</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Целлюлозно-бумажная отрасль</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Снижение ХПК и ПБК</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Красильная промышленность</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Деэмульгирование</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="complex_solutions_detail.html">
+                                        <span class="menu__point--title">Тяжелые металлы и примеси</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="frontend/examples.html"><span>Реализованные примеры</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="popup__menu--about">
+                    <span class="popup__menu--title"><span class="highlighted">Technoline</span> Group</span>
+                    <ul>
+                        <li>
+                            <a href="about.html"><span>О группе</span></a>
+                        </li>
+                        <li>
+                            <a href="delivery.html"><span>Доставка</span></a>
+                        </li>
+                        <li>
+                            <a href="articles_list.html"><span>Статьи</span></a>
+                        </li>
+                        <li>
+                            <a href="video.html"><span>Видео</span></a>
+                        </li>
+                        <li>
+                            <a href="cooperation.html"><span>Сотрудничество</span></a>
+                        </li>
+                        <li>
+                            <a href="manufacturers.html"><span>Производители</span></a>
+                        </li>
+                        <li>
+                            <a href="contacts.html"><span>Контакты</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="popup__menu--selection">
+                    <a href="podbor_reagenta_dlya_metala.html" data-type="metal">
+                        <img src="img/icon_menu_metal.svg" alt="Подбор реагента для подготовки металла">
+                        <span class="block__info">
+                                <span class="block__title">Подбор реагента для подготовки металла</span>
+                                <span class="block__subtitle">Опросный лист для подбора</span>
+                            </span>
+                    </a>
+                    <a href="podbor_reagenta_dlya_vodi.html" data-type="water">
+                        <img src="img/icon_menu_water.svg" alt="Подбор реагента для сточных вод или водоподготовки">
+                        <span class="block__info">
+                                <span class="block__title">Подбор реагента для сточных вод или водоподготовки</span>
+                                <span class="block__subtitle">Опросный лист для подбора</span>
+                            </span>
+                    </a>
+                </div>
+            </div>
+            <div class="popup__menu--phone">
+                <div class="container">
+                    <a href="tel:+78005505211">+7 800 550 52 11</a>
+                    <p>Звонок по России бесплатный</p>
+                    <p>Режим работы: 08:30 – 17:30, Пн.-Пт.</p>
+                    <button class="j-request-a-call">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup popup__call">
+            <div class="popup__close"></div>
+            <div class="popup__title">Заказать <span class="no-xs">обратный</span> звонок</div>
+            <p class="popup__subtitle">Выберите удобный способ связи, специалист свяжется с Вами, ответит на возникшие вопросы и объяснит детали заказа.</p>
+            <div class="form__template">
+                <form>
+                    <div class="form__row">
+                        <label data-label="name">
+                            <input type="text" name="NAME" placeholder="Введите имя..." required="">
+                            <span class="input--error">Обязательное поле</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label data-label="phone">
+                            <input type="tel" name="PHONE" placeholder="+7 (999) 999 99 99" required="">
+                            <span class="input--error">Обязательное поле</span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label data-label="date">
+                            <input type="text" class="datepicker-here" readonly="" name="DATE" placeholder="__.__.____" data-date="11.02.2022" required>
+                            <span class="input--error">Обязательное поле</span>
+                        </label>
+                        <label data-label="time">
+                            <input type="text" name="TIME" placeholder="00:00" required>
+                            <span class="input--error">Обязательное поле</span>
+                        </label>
+                    </div>
+                    <button class="j-send-request">Оставить заявку</button>
+                    <div class="form__confirm">
+                        <p>Нажимая на кнопку, Вы даете согласие на <a href="javascript:void(0);" target="_blank" rel="nofollow">обработку своих персональных данных</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="popup popup__send">
+            <div class="popup__close"></div>
+            <div class="popup__send--wrap">
+                <div class="popup__send__picture">
+                    <div class="about__graphics--arc">
+                        <input type="text" value="0" data-current="1500" class="dial2" data-min="0" data-max="2000" data-angleOffset="-180"  data-angleArc="360" data-fgColor="#3A2781" data-bgColor="rgba(240, 240, 240, 0.5)" data-readOnly="true" data-thickness="0.11" data-width="155" data-height="155" displayInput="false" data-linecap="round">
+                    </div>
+                    <picture>
+                        <source srcset="img/popup_arc_img.svg" media="(min-width: 300px)">
+                        <img src="img/popup_arc_img.svg" alt="Ваша заявка отправлена">
+                    </picture>
+                </div>
+                <p class="popup__send--title">Ваша заявка отправлена</p>
+                <div class="popup__close">Закрыть</div>
+            </div>
+        </div>
+
+        <div class="popup__search--wrap">
+            <div class="search__inner">
+                <div class="container">
+                    <form action method="get">
+                        <div class="search__inner--icon">
+                            <svg width="50" height="50" class="no-xs">
+                                <circle r="13" fill="none" stroke="#adb9c5" stroke-opacity="0.5" stroke-width="2" cx="50%" cy="24"></circle>
+                                <line stroke="#adb9c5" stroke-opacity="0.5" stroke-width="2" x1="34" y1="34" x2="40" y2="41"></line>
+                            </svg>
+                            <svg width="40" height="40" class="xs">
+                                <circle r="10" fill="none" stroke="#adb9c5" stroke-opacity="0.5" stroke-width="2" cx="50%" cy="19"></circle>
+                                <line stroke="#adb9c5" stroke-opacity="0.5" stroke-width="2" x1="28" y1="27" x2="34" y2="33"></line>
+                            </svg>
+                        </div>
+                        <input size="40" name="q" id="qplSKIW" value="" type="text" autocomplete="off">
+                        <div class="search__inner--close">
+                            <svg width="24" height="24" class="no-xs">
+                                <line stroke="#000000" stroke-width="2" fill="none" x1="0" y1="0" x2="24" y2="24" />
+                                <line stroke="#000000" stroke-width="2" fill="none" x1="24" y1="0" x2="0" y2="24" />
+                            </svg>
+                            <svg width="18" height="18" class="xs">
+                                <line stroke="#000000" stroke-width="2" fill="none" x1="0" y1="0" x2="18" y2="18" />
+                                <line stroke="#000000" stroke-width="2" fill="none" x1="18" y1="0" x2="0" y2="18" />
+                            </svg>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__left">
+                <div class="footer__column">
+                    <div class="footer__logo--header">
+                        <div class="footer__logo">
+                            <a href="main_page.html">
+                                <picture>
+                                    <source srcset="img/footer_logo_mob.png" media="(max-width: 767px)">
+                                    <source srcset="img/footer_logo.png" media="(min-width: 767px)">
+                                    <img src="img/footer_logo.png" alt="Technoline Group">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="footer__phone xs">
+                            <a href="tel:+78005505211">+7 800 550 52 11</a>
+                        </div>
+                    </div>
+                    <ul class="no-xs">
+                        <li>
+                            <a href="about.html"><span>О группе</span></a>
+                        </li>
+                        <li>
+                            <a href="delivery.html"><span>Доставка</span></a>
+                        </li>
+                        <li>
+                            <a href="cooperation.html"><span>Сотрудничество</span></a>
+                        </li>
+                        <li>
+                            <a href="manufacturers.html"><span>Производители</span></a>
+                        </li>
+                        <li>
+                            <a href="articles_list.html"><span>Статьи</span></a>
+                        </li>
+                        <li>
+                            <a href="video.html"><span>Видео</span></a>
+                        </li>
+                        <li>
+                            <a href="contacts.html"><span>Контакты</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column no-xs">
+                    <a class="footer__column--title" href="catalog_items.html"><span>КАТАЛОГ РЕАГЕНТОВ ДЛЯ ОЧИСТКИ СТОЧНЫХ ВОД</span></a>
+                    <ul>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Коагулянты</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Флокулянты</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Обесцвечивающие агенты</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Фиксирующие агенты</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Разделяющие агенты</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Пеногаситель</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Бактерии</span></a>
+                        </li>
+                    </ul>
+                    <div class="footer__separator--short"></div>
+                    <a href="podbor_reagenta_dlya_vodi.html"><span>Подбор реагента</span></a>
+                </div>
+                <div class="footer__column no-xs">
+                    <a class="footer__column--title" href="catalog_items_metal.html"><span>Каталог реагентов для подготовки металла</span></a>
+                    <ul>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Фосфатирование</span></a>
+                            <ul>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Общее</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Phostri TTS4</span></a>
+                                </li>
+                                <li>
+                                    <a href="catalog_items_in_section.html"><span>Phosclean TTS3</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Обезжиривание</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Удаление краски</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_in_section.html"><span>Плафоризация</span></a>
+                        </li>
+                    </ul>
+                    <div class="footer__separator--short"></div>
+                    <a href="podbor_reagenta_dlya_metala.html"><span>Подбор реагента</span></a>
+                </div>
+            </div>
+            <div class="footer__section xs">
+                <a class="footer__column--title" href="catalog_items.html"><span>Реагенты для очистки сточных вод</span></a>
+                <a class="footer__column--title" href="catalog_items.html"><span>Реагенты для подготовки металла</span></a>
+                <a class="footer__column--title" href="catalog_items.html"><span>Оборудование</span></a>
+                <div class="footer__separator--short"></div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__column no-xs">
+                    <a class="footer__column--title" href="catalog_items.html"><span>Оборудование</span></a>
+                    <ul>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Фильтр-прессы</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Барабанные фильтры</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Диффузоры</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Грохоты</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Компактная система очистки</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Конвейеры</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Генератор пузырьков</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Система дозирования</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_items_equipment.html"><span>Напорный флотатор</span></a>
+                        </li>
+                        <li>
+                            <a href="catalog_detail_camera.html"><span>Камера подготовки перед покраской</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <a class="footer__column--title" href="complex_solutions.html"><span>Отраслевые решения</span></a>
+                    <a class="footer__column--title" href="examples.html"><span>Реализованные примеры</span></a>
+                    <div class="footer__separator--short no-xs"></div>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/TechnoWater-100106628578079/?view_public_for=100106628578079" class="footer__social" target="_blank">
+                            <img src="img/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="https://vk.com/technowater" class="footer__social" target="_blank">
+                            <img src="img/vkontakte.png" alt="Vkontakte">
+                        </a>
+                        <a href="https://ok.ru/group/57353247064073" class="footer__social" target="_blank">
+                            <img src="img/odnoklassniki.png" alt="Одноклассники">
+                        </a>
+                    </div>
+                    <div class="footer__copyright">
+                        <span>© 2018-2021 <br class="no-xs">ООО "Технолайн"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
