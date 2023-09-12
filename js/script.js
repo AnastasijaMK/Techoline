@@ -106,7 +106,7 @@ $(document).ready(function() {
             $('html, body').scrollTop(0);
             setTimeout(()=>{
                 calcVh();
-            }, 1000);
+            }, 500);
         }
     });
 
@@ -726,6 +726,9 @@ $(document).ready(function() {
         if ($(window).width() < 768) {
             document.body.setAttribute('data-scroll', document.documentElement.scrollTop);
             $('body').css('position','fixed');
+            setTimeout(()=>{
+                calcVh();
+            }, 500);
         }
         popupButtonShadow();
     });
