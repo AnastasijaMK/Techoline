@@ -4,6 +4,7 @@ $(document).ready(function() {
     function calcVh() {
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
+        document.querySelector('.popup__menu').style.backgroundColor = 'yellow';
     }
     calcVh();
 
@@ -106,7 +107,7 @@ $(document).ready(function() {
             $('html, body').scrollTop(0);
             setTimeout(()=>{
                 calcVh();
-            }, 1000);
+            }, 3000);
         }
     });
 
@@ -728,7 +729,7 @@ $(document).ready(function() {
             $('body').css('position','fixed');
             setTimeout(()=>{
                 calcVh();
-            }, 1000);
+            }, 3000);
         }
         popupButtonShadow();
     });
