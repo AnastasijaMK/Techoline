@@ -12307,8 +12307,9 @@ footer .footer__copyright {
     }
 
     .popup__menu.active {
-        display: flex;
-        flex-direction: column;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        display: block;
         z-index: 13;
     }
 
