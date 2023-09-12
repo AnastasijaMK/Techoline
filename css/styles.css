@@ -13618,14 +13618,6 @@ footer .footer__copyright {
         display: flex;
     }
 
-    .item__modifications .table__wrap:after {
-        content: '';
-        position: relative;
-        width: 20px;
-        min-width: 20px;
-        display: block;
-    }
-
     .item__modifications .table__wrap::-webkit-scrollbar {
         display: none;
     }
