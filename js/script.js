@@ -6,6 +6,7 @@ $(document).ready(function() {
         document.documentElement.style.setProperty('--vh', `${vh}px`);
         alert(window.innerHeight);
         alert(document.documentElement.clientHeight);
+        alert(window.screen.availHeight);
     }
     calcVh();
 
