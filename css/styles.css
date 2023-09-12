@@ -7554,6 +7554,8 @@ footer .footer__copyright {
 
 .item__examples .examples__wrap .examples__list {
     overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item__card {
