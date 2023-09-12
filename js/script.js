@@ -4,9 +4,6 @@ $(document).ready(function() {
     function calcVh() {
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
-        alert(window.innerHeight);
-        alert(document.documentElement.clientHeight);
-        alert(window.screen.availHeight);
     }
     calcVh();
 
@@ -109,7 +106,7 @@ $(document).ready(function() {
             $('html, body').scrollTop(0);
             setTimeout(()=>{
                 calcVh();
-            }, 3000);
+            }, 300);
         }
     });
 
@@ -731,7 +728,7 @@ $(document).ready(function() {
             $('body').css('position','fixed');
             setTimeout(()=>{
                 calcVh();
-            }, 3000);
+            }, 300);
         }
         popupButtonShadow();
     });
