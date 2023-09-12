@@ -106,7 +106,7 @@ $(document).ready(function() {
             $('html, body').scrollTop(0);
             setTimeout(()=>{
                 calcVh();
-            }, 500);
+            }, 1000);
         }
     });
 
@@ -728,7 +728,7 @@ $(document).ready(function() {
             $('body').css('position','fixed');
             setTimeout(()=>{
                 calcVh();
-            }, 500);
+            }, 1000);
         }
         popupButtonShadow();
     });
