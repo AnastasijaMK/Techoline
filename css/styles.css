@@ -14195,6 +14195,13 @@ footer .footer__copyright {
         width: 375px;
         min-width: 375px;
     }
+
+    .popup__menu_container {
+        width: 100%;
+        max-width: 820px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -14267,6 +14274,10 @@ footer .footer__copyright {
         top: 78px;
         height: calc(var(--vh, 1vh) * 100 - 78px);
         height: calc(100vh - 78px);
+    }
+
+    .popup__menu.active {
+        display: block;
     }
 
     .popup__menu .popup__menu--search {
@@ -17342,9 +17353,8 @@ footer .footer__copyright {
         padding: 10px;
     }
 
-    .popup__menu .container {
-        height: min-content;
-        height: -moz-min-content;
+    .popup__menu_container {
+        max-width: 100%;
     }
 }
 
