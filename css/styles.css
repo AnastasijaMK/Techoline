@@ -12307,9 +12307,8 @@ footer .footer__copyright {
     }
 
     .popup__menu.active {
-        /*display: flex;*/
-        /*flex-direction: column;*/
-        display: block;
+        display: flex;
+        flex-direction: column;
         z-index: 13;
     }
 
@@ -17341,6 +17340,11 @@ footer .footer__copyright {
 
     .thanks__wrap .thanks__info a {
         padding: 10px;
+    }
+
+    .popup__menu .container {
+        height: min-content;
+        height: -moz-min-content;
     }
 }
 
