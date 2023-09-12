@@ -4,6 +4,8 @@ $(document).ready(function() {
     function calcVh() {
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
+        alert(window.innerHeight);
+        alert(document.documentElement.clientHeight);
     }
     calcVh();
 
