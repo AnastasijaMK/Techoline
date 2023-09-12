@@ -5,6 +5,7 @@ $(document).ready(function() {
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
         document.querySelector('.popup__menu').style.backgroundColor = 'yellow';
+        console.log('finally');
     }
     calcVh();
 
@@ -1707,7 +1708,6 @@ $(document).ready(function() {
             $('.wrapper__shadow').removeClass('menu');
             $('.wrapper__shadow').css('z-index', '14');
         }
-        $('.popup__call .popup__title').html('Обратная связь');
     }
     $('.j-request-a-call').click(function() {
         upCall();
