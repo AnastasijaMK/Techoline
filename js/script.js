@@ -106,7 +106,7 @@ $(document).ready(function() {
             $('html, body').scrollTop(0);
             setTimeout(()=>{
                 calcVh();
-            }, 300);
+            }, 1000);
         }
     });
 
