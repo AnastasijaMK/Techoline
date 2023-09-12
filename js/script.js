@@ -1,8 +1,11 @@
 $(document).ready(function() {
 
     // Корректировка отображения всплывающих окон в мобильных браузерах
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    function calcVh() {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+    calcVh();
 
 
     // Плавная прокрутка к якорю
@@ -101,6 +104,9 @@ $(document).ready(function() {
             $('body').css('position','fixed');
             checkInnerList();
             $('html, body').scrollTop(0);
+            setTimeout(()=>{
+                calcVh();
+            }, 300);
         }
     });
 
